@@ -91,12 +91,13 @@ string ReadInput(string msg)
 void PrintArray(string[] array)
 {
 
-![image](https://user-images.githubusercontent.com/124388116/227784313-9662ffa4-be30-408b-8cd7-b9f21223d224.png)
-
-    Console.Write("[ ");
+Console.Write("[ ");
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"“{array[i]}”, ");
     }
     Console.Write("] ");
 }
+
+![image](https://user-images.githubusercontent.com/124388116/227784313-9662ffa4-be30-408b-8cd7-b9f21223d224.png)
+
