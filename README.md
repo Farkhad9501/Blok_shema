@@ -90,6 +90,9 @@ string ReadInput(string msg)
 //  Функция вывода массива в терминал
 void PrintArray(string[] array)
 {
+
+![image](https://user-images.githubusercontent.com/124388116/227784313-9662ffa4-be30-408b-8cd7-b9f21223d224.png)
+
     Console.Write("[ ");
     for (int i = 0; i < array.Length; i++)
     {
